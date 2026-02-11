@@ -20,7 +20,7 @@ export function Header() {
         <div className="brand">ONE MORE</div>
         <div className="subtle">Your bar: {count} ingredients</div>
       </div>
-      <div className="subtle">Classic whiskey-bar MVP</div>
+      <div className="subtle">one more, but that's it.</div>
     </div>
   );
 }

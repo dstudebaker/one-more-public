@@ -15,13 +15,16 @@ export function Header() {
     return () => window.removeEventListener("storage", onStorage);
   }, []);
 
-  return (
-    <div className="header">
-      <div>
-        <div className="brand">ONE MORE</div>
-        <div className="subtle">Your bar: {count} ingredients</div>
-      </div>
-      <div className="subtle">one more, but that's it.</div>
+return (
+  <div className="header">
+    <div>
+      <div className="brand">ONE MORE</div>
+      <div className="subtle">Your bar: {count} ingredients</div>
     </div>
-  );
-}
+
+    <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+      <div className="subtle">one more, but that&apos;s it.</div>
+      <AuthStatus />
+    </div>
+  </div>
+);

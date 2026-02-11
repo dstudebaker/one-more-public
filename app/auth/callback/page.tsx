@@ -2,33 +2,34 @@
 
 import "../../amplify";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { getCurrentUser } from "aws-amplify/auth";
 
 export default function AuthCallback() {
-  const router = useRouter();
-  const [msg, setMsg] = useState("Signing you in…");
+  const [info, setInfo] = useState<string>("Signing you in…");
 
   useEffect(() => {
-    let cancelled = false;
+    // Show a tiny bit of debug info on-screen (safe)
+    const url = new URL(window.location.href);
+    const hasCode = url.searchParams.has("code");
+    const hasError = url.searchParams.has("error");
 
-    // Never hang here: try to detect user, then go home.
-    (async () => {
-      try {
-        await getCurrentUser();
-        if (!cancelled) setMsg("Signed in! Redirecting…");
-      } catch {
-        if (!cancelled) setMsg("Finishing sign-in… Redirecting…");
-      } finally {
-        // Give Amplify a beat to finish writing tokens, then navigate.
-        setTimeout(() => router.replace("/"), 250);
-      }
-    })();
+    setInfo(
+      hasError
+        ? `Sign-in error: ${url.searchParams.get("error") || "unknown"}`
+        : hasCode
+        ? "Received code. Finishing sign-in…"
+        : "Finishing sign-in…"
+    );
 
-    return () => {
-      cancelled = true;
-    };
-  }, [router]);
+    // IMPORTANT: strip query params so we don't re-process code on refresh
+    window.history.replaceState({}, document.title, "/auth/callback");
 
-  return <div className="subtle">{msg}</div>;
+    // Hard redirect (not Next router) so we never get “stuck” here
+    const t = setTimeout(() => {
+      window.location.replace("/");
+    }, 600);
+
+    return () => clearTimeout(t);
+  }, []);
+
+  return <div className="subtle">{info}</div>;
 }

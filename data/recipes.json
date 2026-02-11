@@ -1,0 +1,7759 @@
+[
+  {
+    "id": "airmail",
+    "name": "Airmail",
+    "tags": [
+      "bubbly",
+      "rum"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake first three with ice; strain and top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "honey_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "algonquin",
+    "name": "Algonquin",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "amaretto_sour",
+    "name": "Amaretto Sour",
+    "tags": [
+      "shaken",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "amaretto",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "tags": [
+      "highball",
+      "bitter",
+      "classic"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice. Top with soda. Stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "campari",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "aperol_soda",
+    "name": "Aperol & Soda",
+    "tags": [
+      "highball",
+      "aperitif"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "aperol",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "aperol_margarita",
+    "name": "Aperol Margarita",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "aperol_negroni",
+    "name": "Aperol Negroni",
+    "tags": [
+      "stirred",
+      "gin"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "aperol_spritz",
+    "name": "Aperol Spritz",
+    "tags": [
+      "spritz",
+      "bubbly"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build in wine glass with ice. Stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "aperol",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "aviation_dry",
+    "name": "Aviation (Dry)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "creme_de_violette",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "b_52_cocktail",
+    "name": "B-52 (Cocktail)",
+    "tags": [
+      "dessert"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "coffee_liqueur",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "irish_cream",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bee_s_knees_basil",
+    "name": "Bee's Knees (Basil)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Double strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "honey_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "basil",
+        "amountText": "4 leaves",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bee_s_knees_lavender_ish",
+    "name": "Bee's Knees (Lavender-ish)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "honey_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "between_the_sheets",
+    "name": "Between the Sheets",
+    "tags": [
+      "shaken",
+      "cognac"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "cognac",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "white_rum",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bijou",
+    "name": "Bijou",
+    "tags": [
+      "stirred",
+      "gin",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "chartreuse_green",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bitter_french_75",
+    "name": "Bitter French 75",
+    "tags": [
+      "bubbly",
+      "gin"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake gin/lemon/aperol; top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "black_manhattan",
+    "name": "Black Manhattan",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "amaro",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "black_russian",
+    "name": "Black Russian",
+    "tags": [
+      "built",
+      "vodka"
+    ],
+    "glass": "Rocks",
+    "instructions": "Build over ice and stir.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coffee_liqueur",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "blood_and_sand",
+    "name": "Blood and Sand",
+    "tags": [
+      "shaken",
+      "scotch",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cherry_heering",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bloody_mary",
+    "name": "Bloody Mary",
+    "tags": [
+      "savory",
+      "vodka",
+      "brunch"
+    ],
+    "glass": "Highball",
+    "instructions": "Build with ice and stir well. Season to taste.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tomato_juice",
+        "amountText": "4 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "worcestershire",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "hot_sauce",
+        "amountText": "to taste",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "celery_salt",
+        "amountText": "pinch",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "wedge",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bobby_burns",
+    "name": "Bobby Burns",
+    "tags": [
+      "stirred",
+      "scotch",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "benedictine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "boulevardier_aperol",
+    "name": "Boulevardier (Aperol)",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "boulevardier_cynar",
+    "name": "Boulevardier (Cynar)",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "amaro"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cynar",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "boulevardier_rye",
+    "name": "Boulevardier (Rye)",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bourbon_apple_simple",
+    "name": "Bourbon & Apple (Simple)",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_ale",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bourbon_cola",
+    "name": "Bourbon & Cola",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cola",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bourbon_grapefruit",
+    "name": "Bourbon & Grapefruit",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bourbon_tonic",
+    "name": "Bourbon & Tonic",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tonic_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bourbon_boulevard",
+    "name": "Bourbon Boulevard",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bourbon_highball",
+    "name": "Bourbon Highball",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sparkling_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bourbon_negroni",
+    "name": "Bourbon Negroni",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bourbon_renewal_simplified",
+    "name": "Bourbon Renewal (Simplified)",
+    "tags": [
+      "shaken",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "creme_de_cassis",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bourbon_sidecar_improved",
+    "name": "Bourbon Sidecar (Improved)",
+    "tags": [
+      "shaken",
+      "whiskey"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bourbon_smash_mint",
+    "name": "Bourbon Smash (Mint)",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "mint"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Double strain or fine strain.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "8 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "bourbon_spritz",
+    "name": "Bourbon Spritz",
+    "tags": [
+      "spritz",
+      "whiskey"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice; stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "bramble",
+    "name": "Bramble",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake first three; strain over crushed ice; drizzle cassis.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "creme_de_cassis",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "brandy_alexander",
+    "name": "Brandy Alexander",
+    "tags": [
+      "dessert",
+      "brandy"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "brandy",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "creme_de_cacao",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cream",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "brandy_crusta_simplified",
+    "name": "Brandy Crusta (Simplified)",
+    "tags": [
+      "shaken",
+      "brandy"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "brandy",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "brooklyn",
+    "name": "Brooklyn",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "tags": [
+      "built",
+      "cachaca",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Muddle lime with sugar. Add ice and cachaça; stir.",
+    "ingredients": [
+      {
+        "ingredientId": "cachaca",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "half, muddled",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sugar",
+        "amountText": "2 tsp",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "caipirissima",
+    "name": "Caipirissima",
+    "tags": [
+      "built",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Muddle lime with sugar. Add ice and rum; stir.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "half, muddled",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sugar",
+        "amountText": "2 tsp",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "caipiroska",
+    "name": "Caipiroska",
+    "tags": [
+      "built",
+      "vodka"
+    ],
+    "glass": "Rocks",
+    "instructions": "Muddle lime with sugar. Add ice and vodka; stir.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "half, muddled",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sugar",
+        "amountText": "2 tsp",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "campari_soda",
+    "name": "Campari & Soda",
+    "tags": [
+      "highball",
+      "aperitif"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "campari",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "cape_codder",
+    "name": "Cape Codder",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cranberry_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "champagne_cocktail",
+    "name": "Champagne Cocktail",
+    "tags": [
+      "bubbly",
+      "classic"
+    ],
+    "glass": "Flute",
+    "instructions": "Add bitters to sugar, place in flute, top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sugar",
+        "amountText": "1 tsp",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "cinnamon_old_fashioned",
+    "name": "Cinnamon Old Fashioned",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain over large cube.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cinnamon_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "clover_club",
+    "name": "Clover Club",
+    "tags": [
+      "shaken",
+      "gin",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Dry shake if using egg, then shake with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "cognac_spritz",
+    "name": "Cognac Spritz",
+    "tags": [
+      "spritz",
+      "cognac"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice; stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "cognac",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "cold_brew_highball",
+    "name": "Cold Brew Highball",
+    "tags": [
+      "highball",
+      "coffee"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "cold_brew",
+        "amountText": "4 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sparkling_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "cold_brew_martini",
+    "name": "Cold Brew Martini",
+    "tags": [
+      "shaken",
+      "vodka",
+      "coffee"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Double strain.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coffee_liqueur",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cold_brew",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "corpse_reviver_no_2_modern",
+    "name": "Corpse Reviver No. 2 (Modern)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Rinse glass with absinthe. Shake others with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lillet_blanc",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "absinthe",
+        "amountText": "rinse",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "corpse_reviver_no_2_no_rinse",
+    "name": "Corpse Reviver No. 2 (No Rinse)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "triple_sec",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lillet_blanc",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "tags": [
+      "shaken",
+      "vodka",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cranberry_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "cuba_libre",
+    "name": "Cuba Libre",
+    "tags": [
+      "highball",
+      "rum",
+      "classic"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice and stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cola",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "cynar_soda",
+    "name": "Cynar & Soda",
+    "tags": [
+      "highball",
+      "amaro"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "cynar",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "cynar_negroni",
+    "name": "Cynar Negroni",
+    "tags": [
+      "stirred",
+      "gin",
+      "amaro"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cynar",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "cynar_sour",
+    "name": "Cynar Sour",
+    "tags": [
+      "shaken",
+      "amaro",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "cynar",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "cynar_spritz",
+    "name": "Cynar Spritz",
+    "tags": [
+      "spritz",
+      "amaro"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice; stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "cynar",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "daiquiri_classic",
+    "name": "Daiquiri (Classic)",
+    "tags": [
+      "shaken",
+      "rum",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "daiquiri_dark_rum",
+    "name": "Daiquiri (Dark Rum)",
+    "tags": [
+      "shaken",
+      "rum"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "daiquiri_demerara",
+    "name": "Daiquiri (Demerara)",
+    "tags": [
+      "shaken",
+      "rum"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "dark_n_stormy",
+    "name": "Dark 'n Stormy",
+    "tags": [
+      "highball",
+      "rum",
+      "classic"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice; top with ginger beer.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "dark_rum_pineapple",
+    "name": "Dark Rum & Pineapple",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "division_bell",
+    "name": "Division Bell",
+    "tags": [
+      "shaken",
+      "mezcal",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "mezcal",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "eastside",
+    "name": "Eastside",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Double strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cucumber",
+        "amountText": "2 slices",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "4 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "el_diablo",
+    "name": "El Diablo",
+    "tags": [
+      "highball",
+      "tequila",
+      "tiki"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "creme_de_cassis",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "elderflower_collins",
+    "name": "Elderflower Collins",
+    "tags": [
+      "highball",
+      "gin"
+    ],
+    "glass": "Collins",
+    "instructions": "Shake first three; top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "st_germain",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "elderflower_margarita",
+    "name": "Elderflower Margarita",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "st_germain",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "espresso_tonic",
+    "name": "Espresso & Tonic",
+    "tags": [
+      "highball",
+      "coffee"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice; add espresso.",
+    "ingredients": [
+      {
+        "ingredientId": "espresso",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tonic_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "espresso_martini",
+    "name": "Espresso Martini",
+    "tags": [
+      "shaken",
+      "vodka",
+      "coffee"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Double strain.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coffee_liqueur",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "espresso",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "espresso_negroni",
+    "name": "Espresso Negroni",
+    "tags": [
+      "stirred",
+      "coffee"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "espresso",
+        "amountText": "0.5 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "fernet_ginger",
+    "name": "Fernet & Ginger",
+    "tags": [
+      "highball",
+      "amaro"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "fernet",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_ale",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "fernet_sour",
+    "name": "Fernet Sour",
+    "tags": [
+      "shaken",
+      "amaro",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "fernet",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "fernet_spritz",
+    "name": "Fernet Spritz",
+    "tags": [
+      "spritz",
+      "amaro"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice; stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "fernet",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "final_ward",
+    "name": "Final Ward",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "chartreuse_green",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "french_75",
+    "name": "French 75",
+    "tags": [
+      "bubbly",
+      "gin",
+      "classic"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake gin/lemon/syrup with ice. Strain, top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "french_75_cognac",
+    "name": "French 75 (Cognac)",
+    "tags": [
+      "bubbly",
+      "cognac"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake first three; top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "cognac",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "french_75_elderflower",
+    "name": "French 75 (Elderflower)",
+    "tags": [
+      "bubbly",
+      "gin"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake gin/lemon/elderflower; top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "st_germain",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "french_77",
+    "name": "French 77",
+    "tags": [
+      "bubbly",
+      "vodka"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake vodka/lemon/syrup with ice. Strain and top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "french_connection",
+    "name": "French Connection",
+    "tags": [
+      "built",
+      "brandy"
+    ],
+    "glass": "Rocks",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "cognac",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "amaretto",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "french_martini",
+    "name": "French Martini",
+    "tags": [
+      "shaken",
+      "vodka"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "creme_de_cassis",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gibson",
+    "name": "Gibson",
+    "tags": [
+      "stirred",
+      "gin",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir very cold. Strain and garnish.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "olive",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "gimlet_classic",
+    "name": "Gimlet (Classic)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gimlet_vodka",
+    "name": "Gimlet (Vodka)",
+    "tags": [
+      "shaken",
+      "vodka"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gin_grapefruit",
+    "name": "Gin & Grapefruit",
+    "tags": [
+      "highball",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gin_tonic",
+    "name": "Gin & Tonic",
+    "tags": [
+      "highball",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tonic_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "gin_basil_smash",
+    "name": "Gin Basil Smash",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Fine strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "basil",
+        "amountText": "8 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gin_fizz",
+    "name": "Gin Fizz",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake first three; strain; top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gin_rickey",
+    "name": "Gin Rickey",
+    "tags": [
+      "highball",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gin_sour",
+    "name": "Gin Sour",
+    "tags": [
+      "shaken",
+      "gin",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gin_spritz_bitter",
+    "name": "Gin Spritz (Bitter)",
+    "tags": [
+      "spritz",
+      "gin"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice; stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "ginger_daiquiri",
+    "name": "Ginger Daiquiri",
+    "tags": [
+      "shaken",
+      "rum"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "ginger_paloma",
+    "name": "Ginger Paloma",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice; top with ginger beer.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "ginger_rogers",
+    "name": "Ginger Rogers",
+    "tags": [
+      "highball",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_ale",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "godfather",
+    "name": "Godfather",
+    "tags": [
+      "built",
+      "scotch"
+    ],
+    "glass": "Rocks",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "amaretto",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "gold_rush",
+    "name": "Gold Rush",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "honey_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "grapefruit_daiquiri",
+    "name": "Grapefruit Daiquiri",
+    "tags": [
+      "shaken",
+      "rum"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "grapefruit_paloma",
+    "name": "Grapefruit Paloma",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice; top with grapefruit soda.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "greenpoint",
+    "name": "Greenpoint",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "chartreuse_yellow",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "greyhound_vodka",
+    "name": "Greyhound (Vodka)",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "hanky_panky",
+    "name": "Hanky Panky",
+    "tags": [
+      "stirred",
+      "gin",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "fernet",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "havana_collins",
+    "name": "Havana Collins",
+    "tags": [
+      "highball",
+      "rum"
+    ],
+    "glass": "Collins",
+    "instructions": "Shake first three; top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "hemingway_daiquiri",
+    "name": "Hemingway Daiquiri",
+    "tags": [
+      "shaken",
+      "rum",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "hurricane",
+    "name": "Hurricane",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Hurricane",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "passionfruit_syrup",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "improved_whiskey_cocktail",
+    "name": "Improved Whiskey Cocktail",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Rinse glass with absinthe. Stir; strain; express lemon.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "absinthe",
+        "amountText": "rinse",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "irish_maid_simplified",
+    "name": "Irish Maid (Simplified)",
+    "tags": [
+      "shaken",
+      "whiskey"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Fine strain.",
+    "ingredients": [
+      {
+        "ingredientId": "irish_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cucumber",
+        "amountText": "3 slices",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "italian_greyhound",
+    "name": "Italian Greyhound",
+    "tags": [
+      "highball",
+      "amaro"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "jack_rose",
+    "name": "Jack Rose",
+    "tags": [
+      "shaken",
+      "brandy",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "apple_brandy",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "jamaican_mule",
+    "name": "Jamaican Mule",
+    "tags": [
+      "highball",
+      "rum"
+    ],
+    "glass": "Mug",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "jet_pilot_simplified",
+    "name": "Jet Pilot (Simplified)",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Strain over crushed ice.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "overproof_rum",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "falernum",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "jungle_bird",
+    "name": "Jungle Bird",
+    "tags": [
+      "tiki",
+      "rum",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "kamikaze",
+    "name": "Kamikaze",
+    "tags": [
+      "shaken",
+      "vodka"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "triple_sec",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "kentucky_mule",
+    "name": "Kentucky Mule",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Mug",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "kingston_negroni",
+    "name": "Kingston Negroni",
+    "tags": [
+      "stirred",
+      "rum",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "kingston_paloma",
+    "name": "Kingston Paloma",
+    "tags": [
+      "highball",
+      "rum"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "kir_still",
+    "name": "Kir (Still)",
+    "tags": [
+      "wine"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Add cassis and top with wine.",
+    "ingredients": [
+      {
+        "ingredientId": "creme_de_cassis",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "kir_royale",
+    "name": "Kir Royale",
+    "tags": [
+      "bubbly",
+      "classic"
+    ],
+    "glass": "Flute",
+    "instructions": "Add cassis to flute. Top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "creme_de_cassis",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "last_word_classic",
+    "name": "Last Word (Classic)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "chartreuse_green",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "lemon_drop",
+    "name": "Lemon Drop",
+    "tags": [
+      "shaken",
+      "vodka"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "little_italy",
+    "name": "Little Italy",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cynar",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "mai_tai_1944",
+    "name": "Mai Tai (1944)",
+    "tags": [
+      "tiki",
+      "rum",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Strain over crushed ice. Garnish mint.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orgeat",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_curacao",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "bouquet",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "mai_tai_split_rum",
+    "name": "Mai Tai (Split Rum)",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Strain over crushed ice.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orgeat",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_curacao",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "bouquet",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "manhattan_bourbon",
+    "name": "Manhattan (Bourbon)",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice. Strain into a chilled coupe. Garnish cherry.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cherry",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "manhattan_rye",
+    "name": "Manhattan (Rye)",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice. Strain into a chilled coupe. Garnish cherry.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cherry",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "margarita_cadillac",
+    "name": "Margarita (Cadillac)",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_reposado",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grand_marnier",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "margarita_classic",
+    "name": "Margarita (Classic)",
+    "tags": [
+      "shaken",
+      "tequila",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "margarita_mezcal",
+    "name": "Margarita (Mezcal)",
+    "tags": [
+      "shaken",
+      "mezcal"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "mezcal",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "martinez",
+    "name": "Martinez",
+    "tags": [
+      "stirred",
+      "gin"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "martini_gin_dry",
+    "name": "Martini (Gin, Dry)",
+    "tags": [
+      "stirred",
+      "gin",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir very cold. Strain into a chilled coupe. Express lemon twist.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "martini_vodka",
+    "name": "Martini (Vodka)",
+    "tags": [
+      "stirred",
+      "vodka",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir very cold. Strain into a chilled coupe. Express lemon twist.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "mary_pickford",
+    "name": "Mary Pickford",
+    "tags": [
+      "shaken",
+      "rum",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "maraschino_liqueur",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mexican_firing_squad",
+    "name": "Mexican Firing Squad",
+    "tags": [
+      "tiki",
+      "tequila"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mexican_mule",
+    "name": "Mexican Mule",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Mug",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mezcal_mule",
+    "name": "Mezcal Mule",
+    "tags": [
+      "highball",
+      "mezcal"
+    ],
+    "glass": "Mug",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "mezcal",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mezcal_negroni",
+    "name": "Mezcal Negroni",
+    "tags": [
+      "stirred",
+      "mezcal",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "mezcal",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "mezcal_sour",
+    "name": "Mezcal Sour",
+    "tags": [
+      "shaken",
+      "mezcal",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "mezcal",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa",
+    "tags": [
+      "bubbly",
+      "brunch"
+    ],
+    "glass": "Flute",
+    "instructions": "Combine and serve chilled.",
+    "ingredients": [
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mint_daiquiri",
+    "name": "Mint Daiquiri",
+    "tags": [
+      "shaken",
+      "rum",
+      "mint"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Double strain.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "6 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "mint_julep",
+    "name": "Mint Julep",
+    "tags": [
+      "mint",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Julep Cup",
+    "instructions": "Lightly muddle mint with syrup. Add crushed ice and bourbon; stir and mound ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "10 leaves",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "bouquet",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "tags": [
+      "highball",
+      "rum",
+      "mint"
+    ],
+    "glass": "Highball",
+    "instructions": "Lightly muddle mint with syrup & lime. Add rum and ice. Top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "8 leaves",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "bouquet",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "monte_cassino",
+    "name": "Monte Cassino",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "benedictine",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "chartreuse_yellow",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "moscow_mule",
+    "name": "Moscow Mule",
+    "tags": [
+      "highball",
+      "vodka",
+      "classic"
+    ],
+    "glass": "Mug",
+    "instructions": "Build over ice. Top with ginger beer. Stir gently.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "mudslide_simplified",
+    "name": "Mudslide (Simplified)",
+    "tags": [
+      "dessert",
+      "vodka"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coffee_liqueur",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "irish_cream",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "naked_famous",
+    "name": "Naked & Famous",
+    "tags": [
+      "shaken",
+      "mezcal",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "mezcal",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "chartreuse_yellow",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "navy_grog_simplified",
+    "name": "Navy Grog (Simplified)",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Strain over crushed ice.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "honey_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "tags": [
+      "stirred",
+      "gin",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "negroni_aperol",
+    "name": "Negroni (Aperol)",
+    "tags": [
+      "stirred",
+      "gin"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "negroni_sbagliato",
+    "name": "Negroni Sbagliato",
+    "tags": [
+      "bubbly",
+      "bitter"
+    ],
+    "glass": "Rocks",
+    "instructions": "Build over ice and top with Prosecco. Stir gently.",
+    "ingredients": [
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "new_york_sour",
+    "name": "New York Sour",
+    "tags": [
+      "shaken",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake base; strain over ice; float red wine.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "red_wine",
+        "amountText": "float",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "oaxaca_old_fashioned",
+    "name": "Oaxaca Old Fashioned",
+    "tags": [
+      "stirred",
+      "mezcal",
+      "tequila",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain over large cube. Express orange.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_reposado",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mezcal",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "express",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "old_cuban_simplified",
+    "name": "Old Cuban (Simplified)",
+    "tags": [
+      "bubbly",
+      "rum",
+      "modern"
+    ],
+    "glass": "Flute",
+    "instructions": "Shake rum/lime/syrup/mint with ice. Strain and top with Champagne.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "6 leaves",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "champagne",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "old_fashioned_bourbon",
+    "name": "Old Fashioned (Bourbon)",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain over a large cube. Express orange peel.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "express",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "old_fashioned_rye",
+    "name": "Old Fashioned (Rye)",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain over a large cube. Express orange peel.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "express",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "old_pal",
+    "name": "Old Pal",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "orgeat_sour_gin",
+    "name": "Orgeat Sour (Gin)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orgeat",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "painkiller",
+    "name": "Painkiller",
+    "tags": [
+      "tiki",
+      "rum",
+      "creamy"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake with ice. Strain over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "4 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coconut_cream",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice. Top with grapefruit soda. Stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "paloma_fresh",
+    "name": "Paloma (Fresh)",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice and top with sparkling water.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sparkling_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "paper_plane",
+    "name": "Paper Plane",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "amaro_nonino",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Strain over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "honey_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "perfect_manhattan",
+    "name": "Perfect Manhattan",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dry_vermouth",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cherry",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "pineapple_daiquiri",
+    "name": "Pineapple Daiquiri",
+    "tags": [
+      "shaken",
+      "rum"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "pineapple_margarita",
+    "name": "Pineapple Margarita",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "pisco_sour",
+    "name": "Pisco Sour",
+    "tags": [
+      "shaken",
+      "pisco",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Dry shake if using egg, then shake with ice. Strain; dot bitters.",
+    "ingredients": [
+      {
+        "ingredientId": "pisco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "pi_a_colada",
+    "name": "Piña Colada",
+    "tags": [
+      "tiki",
+      "rum",
+      "creamy"
+    ],
+    "glass": "Hurricane",
+    "instructions": "Shake with ice or blend.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coconut_cream",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "planter_s_punch",
+    "name": "Planter's Punch",
+    "tags": [
+      "tiki",
+      "rum",
+      "classic"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "pomegranate_margarita_simple",
+    "name": "Pomegranate Margarita (Simple)",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "port_tonic",
+    "name": "Port & Tonic",
+    "tags": [
+      "highball",
+      "fortified"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "port",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tonic_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "porto_flip_simplified",
+    "name": "Porto Flip (Simplified)",
+    "tags": [
+      "shaken",
+      "fortified"
+    ],
+    "glass": "Coupe",
+    "instructions": "Dry shake, then shake with ice. Strain.",
+    "ingredients": [
+      {
+        "ingredientId": "port",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "brandy",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "ramos_gin_fizz_simplified",
+    "name": "Ramos Gin Fizz (Simplified)",
+    "tags": [
+      "shaken",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Dry shake, then shake hard with ice. Strain and top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cream",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "ranch_water",
+    "name": "Ranch Water",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sparkling_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "remember_the_maine",
+    "name": "Remember the Maine",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Coupe",
+    "instructions": "Rinse glass with absinthe. Stir others with ice; strain.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cherry_heering",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "absinthe",
+        "amountText": "rinse",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "rob_roy",
+    "name": "Rob Roy",
+    "tags": [
+      "stirred",
+      "scotch"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "rum_cola",
+    "name": "Rum & Cola",
+    "tags": [
+      "highball",
+      "rum"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cola",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "rum_negroni",
+    "name": "Rum Negroni",
+    "tags": [
+      "stirred",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "rum_old_fashioned",
+    "name": "Rum Old Fashioned",
+    "tags": [
+      "stirred",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain over large cube.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "express",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "rum_punch",
+    "name": "Rum Punch",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "rum_sour",
+    "name": "Rum Sour",
+    "tags": [
+      "shaken",
+      "rum",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "rusty_nail",
+    "name": "Rusty Nail",
+    "tags": [
+      "stirred",
+      "scotch"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "drambuie",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "rusty_nail_smoky",
+    "name": "Rusty Nail (Smoky)",
+    "tags": [
+      "stirred",
+      "scotch"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "drambuie",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "rye_ginger",
+    "name": "Rye & Ginger",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_ale",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "salty_dog_vodka",
+    "name": "Salty Dog (Vodka)",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Salt rim optional; build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "salt",
+        "amountText": "rim",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "tags": [
+      "tiki",
+      "gin",
+      "modern"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "passionfruit_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orgeat",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Rinse chilled glass with absinthe. Stir rye, syrup, bitters; strain. Express lemon.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "peychauds_bitters",
+        "amountText": "3 dashes",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "absinthe",
+        "amountText": "rinse",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "sea_breeze",
+    "name": "Sea Breeze",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cranberry_juice",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "sherry_cobbler_simple",
+    "name": "Sherry Cobbler (Simple)",
+    "tags": [
+      "shaken",
+      "sherry"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice; strain over crushed ice.",
+    "ingredients": [
+      {
+        "ingredientId": "sweet_sherry",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "tags": [
+      "shaken",
+      "cognac",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "cognac",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cointreau",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "singapore_sling_simplified",
+    "name": "Singapore Sling (Simplified)",
+    "tags": [
+      "shaken",
+      "gin",
+      "tiki"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "pineapple_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cherry_heering",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "benedictine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "southside",
+    "name": "Southside",
+    "tags": [
+      "shaken",
+      "gin",
+      "mint"
+    ],
+    "glass": "Coupe",
+    "instructions": "Shake with ice. Double strain.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "8 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "southside_fizz",
+    "name": "Southside Fizz",
+    "tags": [
+      "highball",
+      "gin",
+      "mint"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake first four, strain, top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "6 leaves",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "spiced_rum_old_fashioned",
+    "name": "Spiced Rum Old Fashioned",
+    "tags": [
+      "stirred",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice. Strain over large cube.",
+    "ingredients": [
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "spritz_campari",
+    "name": "Spritz (Campari)",
+    "tags": [
+      "spritz",
+      "bubbly"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice; stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "campari",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "spritz_elderflower",
+    "name": "Spritz (Elderflower)",
+    "tags": [
+      "spritz",
+      "bubbly"
+    ],
+    "glass": "Wine Glass",
+    "instructions": "Build with ice. Stir lightly.",
+    "ingredients": [
+      {
+        "ingredientId": "st_germain",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "prosecco",
+        "amountText": "3 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "suffering_bastard_simplified",
+    "name": "Suffering Bastard (Simplified)",
+    "tags": [
+      "tiki",
+      "whiskey",
+      "gin"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice, top with ginger beer.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "bourbon",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_beer",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tequila_tonic",
+    "name": "Tequila & Tonic",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tonic_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "tequila_negroni",
+    "name": "Tequila Negroni",
+    "tags": [
+      "stirred",
+      "tequila"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_reposado",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "campari",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_peel",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "tequila_orgeat_sour",
+    "name": "Tequila Orgeat Sour",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orgeat",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tequila_smash_basil",
+    "name": "Tequila Smash (Basil)",
+    "tags": [
+      "shaken",
+      "tequila"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Fine strain.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "basil",
+        "amountText": "6 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tequila_soda",
+    "name": "Tequila Soda",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sparkling_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tequila_sour",
+    "name": "Tequila Sour",
+    "tags": [
+      "shaken",
+      "tequila",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tequila_sunrise",
+    "name": "Tequila Sunrise",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build tequila+OJ; add grenadine to sink.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.5 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "ti_punch",
+    "name": "Ti' Punch",
+    "tags": [
+      "built",
+      "rum"
+    ],
+    "glass": "Rocks",
+    "instructions": "Build and stir gently.",
+    "ingredients": [
+      {
+        "ingredientId": "aged_rum",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tom_collins",
+    "name": "Tom Collins",
+    "tags": [
+      "highball",
+      "gin",
+      "classic"
+    ],
+    "glass": "Collins",
+    "instructions": "Shake first three with ice, strain over ice, top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "tommy_s_margarita",
+    "name": "Tommy's Margarita",
+    "tags": [
+      "shaken",
+      "tequila",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tommy_s_paloma_fresh",
+    "name": "Tommy's Paloma (Fresh)",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice; top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_juice",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "tommy_s_paloma_soda",
+    "name": "Tommy's Paloma (Soda)",
+    "tags": [
+      "highball",
+      "tequila"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice; top with soda.",
+    "ingredients": [
+      {
+        "ingredientId": "tequila_blanco",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grapefruit_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "agave_syrup",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "toronto",
+    "name": "Toronto",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "fernet",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "toronto_bourbon",
+    "name": "Toronto (Bourbon)",
+    "tags": [
+      "stirred",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "fernet",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "demerara_syrup",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "vesper",
+    "name": "Vesper",
+    "tags": [
+      "stirred",
+      "classic"
+    ],
+    "glass": "Coupe",
+    "instructions": "Stir very cold. Strain into coupe. Express lemon.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "vodka",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lillet_blanc",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon",
+        "amountText": "twist",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "vieux_carr",
+    "name": "Vieux Carré",
+    "tags": [
+      "stirred",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cognac",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "sweet_vermouth",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "benedictine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "peychauds_bitters",
+        "amountText": "2 dashes",
+        "optional": true,
+        "garnish": false
+      },
+      {
+        "ingredientId": "angostura_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "vodka_cranberry",
+    "name": "Vodka & Cranberry",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cranberry_juice",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "vodka_soda",
+    "name": "Vodka Soda",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "club_soda",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "vodka_sour",
+    "name": "Vodka Sour",
+    "tags": [
+      "shaken",
+      "vodka",
+      "sour"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake optional egg, then shake with ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "vodka_tonic",
+    "name": "Vodka Tonic",
+    "tags": [
+      "highball",
+      "vodka"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "tonic_water",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "ward_eight",
+    "name": "Ward Eight",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "rye_whiskey",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.25 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "whiskey_ginger",
+    "name": "Whiskey Ginger",
+    "tags": [
+      "highball",
+      "whiskey"
+    ],
+    "glass": "Highball",
+    "instructions": "Build over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "ginger_ale",
+        "amountText": "top",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime",
+        "amountText": "garnish",
+        "optional": true,
+        "garnish": true
+      }
+    ]
+  },
+  {
+    "id": "whiskey_smash",
+    "name": "Whiskey Smash",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake with ice. Strain over crushed ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "mint",
+        "amountText": "8 leaves",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "whiskey_sour",
+    "name": "Whiskey Sour",
+    "tags": [
+      "shaken",
+      "whiskey",
+      "classic"
+    ],
+    "glass": "Rocks",
+    "instructions": "Dry shake if using egg, then shake with ice. Strain over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "egg_white",
+        "amountText": "1",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "whiskey_sour_no_egg",
+    "name": "Whiskey Sour (No Egg)",
+    "tags": [
+      "shaken",
+      "whiskey"
+    ],
+    "glass": "Rocks",
+    "instructions": "Shake hard with ice. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lemon_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "simple_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "white_negroni",
+    "name": "White Negroni",
+    "tags": [
+      "stirred",
+      "gin",
+      "modern"
+    ],
+    "glass": "Rocks",
+    "instructions": "Stir with ice until very cold. Strain and serve.",
+    "ingredients": [
+      {
+        "ingredientId": "gin",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lillet_blanc",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "aperol",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "orange_bitters",
+        "amountText": "1 dash",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "white_russian",
+    "name": "White Russian",
+    "tags": [
+      "built",
+      "vodka"
+    ],
+    "glass": "Rocks",
+    "instructions": "Build over ice and stir gently.",
+    "ingredients": [
+      {
+        "ingredientId": "vodka",
+        "amountText": "2 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "coffee_liqueur",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "cream",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      }
+    ]
+  },
+  {
+    "id": "zombie_modern",
+    "name": "Zombie (Modern)",
+    "tags": [
+      "tiki",
+      "rum"
+    ],
+    "glass": "Highball",
+    "instructions": "Shake with ice. Strain over ice.",
+    "ingredients": [
+      {
+        "ingredientId": "white_rum",
+        "amountText": "1.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "dark_rum",
+        "amountText": "1 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "overproof_rum",
+        "amountText": "0.5 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "lime_juice",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "passionfruit_syrup",
+        "amountText": "0.75 oz",
+        "optional": false,
+        "garnish": false
+      },
+      {
+        "ingredientId": "grenadine",
+        "amountText": "0.25 oz",
+        "optional": true,
+        "garnish": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,620 @@
+[
+  {
+    "id": "absinthe",
+    "name": "Absinthe",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "agave_syrup",
+    "name": "Agave Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "aged_rum",
+    "name": "Aged Rum",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "allspice_dram",
+    "name": "Allspice Dram",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "amaretto",
+    "name": "Amaretto",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "amaro",
+    "name": "Amaro (Generic)",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "amaro_nonino",
+    "name": "Amaro Nonino",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "angostura_bitters",
+    "name": "Angostura Bitters",
+    "type": "bitters",
+    "aliases": []
+  },
+  {
+    "id": "aperol",
+    "name": "Aperol",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "apple_brandy",
+    "name": "Apple Brandy (Calvados-style)",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "bianco_vermouth",
+    "name": "Bianco Vermouth",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "bourbon",
+    "name": "Bourbon",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "brandy",
+    "name": "Brandy",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "benedictine",
+    "name": "Bénédictine",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "cachaca",
+    "name": "Cachaça",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "campari",
+    "name": "Campari",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "celery_salt",
+    "name": "Celery Salt",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "champagne",
+    "name": "Champagne",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "cherry",
+    "name": "Cherry",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "cherry_heering",
+    "name": "Cherry Heering",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "chocolate_bitters",
+    "name": "Chocolate Bitters",
+    "type": "bitters",
+    "aliases": []
+  },
+  {
+    "id": "cinnamon_syrup",
+    "name": "Cinnamon Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "club_soda",
+    "name": "Club Soda",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "coconut_cream",
+    "name": "Coconut Cream",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "coffee_liqueur",
+    "name": "Coffee Liqueur",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "cognac",
+    "name": "Cognac",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "cointreau",
+    "name": "Cointreau",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "cola",
+    "name": "Cola",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "cold_brew",
+    "name": "Cold Brew Coffee",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "cranberry_juice",
+    "name": "Cranberry Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "creme_de_cacao",
+    "name": "Crème de Cacao",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "creme_de_cassis",
+    "name": "Crème de Cassis",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "creme_de_violette",
+    "name": "Crème de Violette",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "cynar",
+    "name": "Cynar",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "dark_rum",
+    "name": "Dark Rum",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "demerara_syrup",
+    "name": "Demerara Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "drambuie",
+    "name": "Drambuie",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "dry_curacao",
+    "name": "Dry Curaçao",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "dry_sherry",
+    "name": "Dry Sherry",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "dry_vermouth",
+    "name": "Dry Vermouth",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "egg_white",
+    "name": "Egg White",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "falernum",
+    "name": "Falernum",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "fernet",
+    "name": "Fernet-Branca",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "frangelico",
+    "name": "Frangelico",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "gin",
+    "name": "Gin",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "ginger_ale",
+    "name": "Ginger Ale",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "ginger_beer",
+    "name": "Ginger Beer",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "ginger_syrup",
+    "name": "Ginger Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "grand_marnier",
+    "name": "Grand Marnier",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "grapefruit_juice",
+    "name": "Grapefruit Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "grapefruit_peel",
+    "name": "Grapefruit Peel",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "grapefruit_soda",
+    "name": "Grapefruit Soda",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "chartreuse_green",
+    "name": "Green Chartreuse",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "grenadine",
+    "name": "Grenadine",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "honey_syrup",
+    "name": "Honey Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "hot_sauce",
+    "name": "Hot Sauce",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "iced_tea",
+    "name": "Iced Tea",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "irish_cream",
+    "name": "Irish Cream",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "irish_whiskey",
+    "name": "Irish Whiskey",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "lemon_juice",
+    "name": "Lemon Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "lemon_lime_soda",
+    "name": "Lemon-Lime Soda",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "lillet_blanc",
+    "name": "Lillet Blanc",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "lime",
+    "name": "Lime",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "lime_juice",
+    "name": "Lime Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "maraschino_liqueur",
+    "name": "Maraschino Liqueur",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "mezcal",
+    "name": "Mezcal",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "olive",
+    "name": "Olive",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "orange_bitters",
+    "name": "Orange Bitters",
+    "type": "bitters",
+    "aliases": []
+  },
+  {
+    "id": "orange_juice",
+    "name": "Orange Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "orange_peel",
+    "name": "Orange Peel",
+    "type": "garnish",
+    "aliases": []
+  },
+  {
+    "id": "orgeat",
+    "name": "Orgeat",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "overproof_rum",
+    "name": "Overproof Rum",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "passionfruit_syrup",
+    "name": "Passionfruit Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "peychauds_bitters",
+    "name": "Peychaud’s Bitters",
+    "type": "bitters",
+    "aliases": []
+  },
+  {
+    "id": "pineapple_juice",
+    "name": "Pineapple Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "pisco",
+    "name": "Pisco",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "port",
+    "name": "Port",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "prosecco",
+    "name": "Prosecco",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "red_wine",
+    "name": "Red Wine",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "rye_whiskey",
+    "name": "Rye Whiskey",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "scotch",
+    "name": "Scotch",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "simple_syrup",
+    "name": "Simple Syrup",
+    "type": "syrup",
+    "aliases": []
+  },
+  {
+    "id": "sparkling_water",
+    "name": "Sparkling Water",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "st_germain",
+    "name": "St-Germain (Elderflower)",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "sweet_sherry",
+    "name": "Sweet Sherry",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "sweet_vermouth",
+    "name": "Sweet Vermouth",
+    "type": "fortified",
+    "aliases": []
+  },
+  {
+    "id": "tequila_blanco",
+    "name": "Tequila Blanco",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "tequila_reposado",
+    "name": "Tequila Reposado",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "tomato_juice",
+    "name": "Tomato Juice",
+    "type": "juice",
+    "aliases": []
+  },
+  {
+    "id": "tonic_water",
+    "name": "Tonic Water",
+    "type": "mixer",
+    "aliases": []
+  },
+  {
+    "id": "triple_sec",
+    "name": "Triple Sec / Orange Liqueur",
+    "type": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "vodka",
+    "name": "Vodka",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "white_rum",
+    "name": "White Rum",
+    "type": "spirit",
+    "aliases": []
+  },
+  {
+    "id": "worcestershire",
+    "name": "Worcestershire Sauce",
+    "type": "other",
+    "aliases": []
+  },
+  {
+    "id": "chartreuse_yellow",
+    "name": "Yellow Chartreuse",
+    "type": "liqueur",
+    "aliases": []
+  }
+]

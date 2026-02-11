@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { loadInventory } from "../lib/inventory";
+import AuthStatus from "../components/AuthStatus";
 
 export function Header() {
   const [count, setCount] = useState<number>(0);

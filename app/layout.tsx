@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "One More",
-  description: "What can you make with your ingredients? What if you had "One More"?",
+  description: 'What can you make with your ingredients? What if you had "One More"?',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

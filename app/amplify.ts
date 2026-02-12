@@ -9,8 +9,8 @@ Amplify.configure({
         oauth: {
           domain: process.env.NEXT_PUBLIC_COGNITO_DOMAIN!,
           scopes: ["openid", "email", "profile"],
-          redirectSignIn: [process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNIN!],
-          redirectSignOut: [process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNOUT!],
+          redirectSignIn: process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNIN!,
+          redirectSignOut: process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNOUT!,
           responseType: "code",
         },
       },

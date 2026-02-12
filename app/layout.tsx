@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import AmplifyClient from "../components/AmplifyClient";
+import InventoryHydrator from "../components/InventoryHydrator";
 
 export const metadata: Metadata = {
   title: "One More",
-  description: "one more, but that's it.",
+  description: "Classic whiskey-bar cocktail inventory + recommendations",
 };
 
 export default function RootLayout({
@@ -15,9 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AmplifyClient>
-          <div className="page-wrap">{children}</div>
-        </AmplifyClient>
+        <InventoryHydrator />
+        <div className="container">{children}</div>
       </body>
     </html>
   );

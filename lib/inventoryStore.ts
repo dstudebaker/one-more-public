@@ -19,7 +19,7 @@ function readFromStorage(): Set<string> {
     const raw = localStorage.getItem(KEY);
     if (!raw) return new Set();
     const arr = JSON.parse(raw) as string[];
-    return new Set(arr);
+    return new Set(Array.isArray(arr) ? arr : []);
   } catch {
     return new Set();
   }
@@ -80,24 +80,30 @@ export function addIngredient(ingredientId: string) {
 }
 
 /**
- * Call this AFTER Amplify is configured and the user is signed in.
  * Merge cloud + local (never wipe local), then converge by saving merged to cloud.
+ *
+ * Returns:
+ * - true  => hydration ran (cloud reachable and merged)
+ * - false => not signed in yet / no token / cloud not reachable
  */
-export async function hydrateInventoryFromCloud() {
+export async function hydrateInventoryFromCloud(): Promise<boolean> {
   try {
     const cloud = await loadInventoryFromCloud();
-    if (!cloud) return;
+    if (!cloud) return false;
 
     const local = cached;
     const merged = new Set([...local, ...cloud]);
 
-    // Update local + UI, but don't immediately save again from setInventory debounce.
+    // Update local + UI, but don't immediately re-save from setInventory debounce.
     setInventory(merged, { skipCloudSave: true });
 
     // Converge cloud to merged value
     await saveInventoryToCloud(merged);
+
+    return true;
   } catch {
     // ignore (not signed in, transient, etc.)
+    return false;
   }
 }
 

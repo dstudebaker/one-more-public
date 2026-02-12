@@ -1,12 +1,13 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { loadInventoryFromCloud, saveInventoryToCloud } from "./cloudInventory";
 
 const KEY = "one_more_inventory_v1";
 const listeners = new Set<() => void>();
 
-// ✅ Cached snapshot so getSnapshot is referentially stable
 let cached: Set<string> = new Set();
+let saveTimer: any = null;
 
 function emit() {
   for (const l of listeners) l();
@@ -29,11 +30,11 @@ function writeToStorage(inv: Set<string>) {
   localStorage.setItem(KEY, JSON.stringify(Array.from(inv.values())));
 }
 
-// Initialize cache on first load (client-side)
+// init cache from local storage
 if (typeof window !== "undefined") {
   cached = readFromStorage();
 
-  // Keep cache in sync across tabs/windows
+  // cross-tab updates
   window.addEventListener("storage", (e) => {
     if (e.key === KEY) {
       cached = readFromStorage();
@@ -48,13 +49,21 @@ export function subscribe(cb: () => void) {
 }
 
 export function getSnapshot() {
-  return cached; // ✅ stable reference unless we update cached
+  return cached;
 }
 
-export function setInventory(inv: Set<string>) {
+function scheduleCloudSave(inv: Set<string>) {
+  if (saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => {
+    saveInventoryToCloud(inv).catch(() => {});
+  }, 750);
+}
+
+export function setInventory(inv: Set<string>, opts?: { skipCloudSave?: boolean }) {
   cached = new Set(inv);
   writeToStorage(cached);
   emit();
+  if (!opts?.skipCloudSave) scheduleCloudSave(cached);
 }
 
 export function toggleIngredient(ingredientId: string) {
@@ -68,6 +77,28 @@ export function addIngredient(ingredientId: string) {
   const next = new Set(cached);
   next.add(ingredientId);
   setInventory(next);
+}
+
+/**
+ * Call this AFTER Amplify is configured and the user is signed in.
+ * Merge cloud + local (never wipe local), then converge by saving merged to cloud.
+ */
+export async function hydrateInventoryFromCloud() {
+  try {
+    const cloud = await loadInventoryFromCloud();
+    if (!cloud) return;
+
+    const local = cached;
+    const merged = new Set([...local, ...cloud]);
+
+    // Update local + UI, but don't immediately save again from setInventory debounce.
+    setInventory(merged, { skipCloudSave: true });
+
+    // Converge cloud to merged value
+    await saveInventoryToCloud(merged);
+  } catch {
+    // ignore (not signed in, transient, etc.)
+  }
 }
 
 export function useInventory() {

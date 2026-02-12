@@ -4,7 +4,7 @@ export async function getAccessToken(): Promise<string | null> {
   try {
     const session = await fetchAuthSession();
     const token = session.tokens?.accessToken?.toString();
-    return token || null;
+    return token || null; 
   } catch {
     return null;
   }

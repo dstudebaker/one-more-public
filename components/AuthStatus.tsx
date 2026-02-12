@@ -7,6 +7,7 @@ import {
   signInWithRedirect,
   signOut,
   fetchAuthSession,
+  fetchUserAttributes,
 } from "aws-amplify/auth";
 
 export default function AuthStatus() {
@@ -23,14 +24,16 @@ export default function AuthStatus() {
         if (cancelled) return;
 
         try {
-          const session = await fetchAuthSession();
+          await fetchAuthSession();
           const user = await getCurrentUser();
 
-          const payload = session.tokens?.idToken?.payload as any;
+          // Pull attributes from Cognito (reliable even when token lacks name/email)
+          const attrs = await fetchUserAttributes();
 
           const best =
-            payload?.name ||
-            payload?.email ||
+            attrs.name ||
+            `${attrs.given_name || ""} ${attrs.family_name || ""}`.trim() ||
+            attrs.email ||
             user?.signInDetails?.loginId ||
             user?.username;
 
@@ -40,13 +43,12 @@ export default function AuthStatus() {
             return;
           }
         } catch {
-          // keep retrying briefly
+          // retry briefly
         }
 
         await new Promise((r) => setTimeout(r, 250));
       }
 
-      // If we got here, we're not signed in (or storage blocked)
       setLabel("");
       setLoading(false);
     })();
@@ -56,9 +58,7 @@ export default function AuthStatus() {
     };
   }, []);
 
-  if (loading) {
-    return <span className="subtle">Checking sign-in…</span>;
-  }
+  if (loading) return <span className="subtle">Checking sign-in…</span>;
 
   if (!label) {
     return (

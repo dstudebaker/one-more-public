@@ -10,25 +10,38 @@ import {
 } from "aws-amplify/auth";
 
 export default function AuthStatus() {
-  const [label, setLabel] = useState<string>("");
-
-  async function refresh() {
-    try {
-      await fetchAuthSession();
-      const user = await getCurrentUser();
-      setLabel(user?.signInDetails?.loginId || user.username || "Signed in");
-    } catch {
-      setLabel("");
-    }
-  }
+  const [displayName, setDisplayName] = useState<string>("");
 
   useEffect(() => {
-    refresh();
+    (async () => {
+      try {
+        // Ensure session exists
+        const session = await fetchAuthSession();
+        await getCurrentUser();
+
+        // Pull name/email from ID token
+        const idToken = session.tokens?.idToken;
+        const payload = idToken?.payload as any;
+
+        const name =
+          payload?.name ||
+          payload?.email ||
+          payload?.given_name ||
+          "";
+
+        setDisplayName(name);
+      } catch {
+        setDisplayName("");
+      }
+    })();
   }, []);
 
-  if (!label) {
+  if (!displayName) {
     return (
-      <button className="btn" onClick={() => signInWithRedirect({ provider: "Google" })}>
+      <button
+        className="btn"
+        onClick={() => signInWithRedirect({ provider: "Google" })}
+      >
         Sign in with Google
       </button>
     );
@@ -36,7 +49,7 @@ export default function AuthStatus() {
 
   return (
     <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-      <span className="subtle">Logged in as {label}</span>
+      <span className="subtle">Logged in as {displayName}</span>
       <button className="btn ghost" onClick={() => signOut()}>
         Sign out
       </button>

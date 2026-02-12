@@ -6,63 +6,67 @@ import {
   getCurrentUser,
   signInWithRedirect,
   signOut,
-  fetchAuthSession,
   fetchUserAttributes,
 } from "aws-amplify/auth";
 
+type Status =
+  | { kind: "loading" }
+  | { kind: "signedOut" }
+  | { kind: "signedIn"; label: string };
+
 export default function AuthStatus() {
-  const [label, setLabel] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(true);
+  const [status, setStatus] = useState<Status>({ kind: "loading" });
 
-  useEffect(() => {
-    let cancelled = false;
+  async function load() {
+    try {
+      const user = await getCurrentUser(); // fast + definitive
+      let label = user.signInDetails?.loginId || user.username;
 
-    (async () => {
-      setLoading(true);
-
-      for (let i = 0; i < 20; i++) {
-        if (cancelled) return;
-
-        try {
-          await fetchAuthSession();
-          const user = await getCurrentUser();
-
-          // Pull attributes from Cognito (reliable even when token lacks name/email)
-          const attrs = await fetchUserAttributes();
-
-          const best =
-            attrs.name ||
-            `${attrs.given_name || ""} ${attrs.family_name || ""}`.trim() ||
-            attrs.email ||
-            user?.signInDetails?.loginId ||
-            user?.username;
-
-          if (best) {
-            setLabel(best);
-            setLoading(false);
-            return;
-          }
-        } catch {
-          // retry briefly
-        }
-
-        await new Promise((r) => setTimeout(r, 250));
+      try {
+        const attrs = await fetchUserAttributes();
+        label =
+          attrs.name ||
+          `${attrs.given_name || ""} ${attrs.family_name || ""}`.trim() ||
+          attrs.email ||
+          label;
+      } catch {
+        // ignore attribute fetch failures
       }
 
-      setLabel("");
-      setLoading(false);
-    })();
+      setStatus({ kind: "signedIn", label });
+    } catch {
+      setStatus({ kind: "signedOut" });
+    }
+  }
 
-    return () => {
-      cancelled = true;
-    };
+  useEffect(() => {
+    load();
   }, []);
 
-  if (loading) return <span className="subtle">Checking sign-in…</span>;
+  const onSignIn = async () => {
+    // Prevent UserAlreadyAuthenticatedException
+    try {
+      await getCurrentUser();
+      await load();
+      return;
+    } catch {
+      // not signed in -> proceed
+    }
+    await signInWithRedirect({ provider: "Google" });
+  };
 
-  if (!label) {
+  const onSignOut = async () => {
+    await signOut();
+    setStatus({ kind: "signedOut" });
+  };
+
+  if (status.kind === "loading") {
+    return <span className="subtle">Checking sign-in…</span>;
+  }
+
+  if (status.kind === "signedOut") {
     return (
-      <button className="btn" onClick={() => signInWithRedirect({ provider: "Google" })}>
+      <button className="btn" onClick={onSignIn}>
         Sign in with Google
       </button>
     );
@@ -70,8 +74,8 @@ export default function AuthStatus() {
 
   return (
     <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-      <span className="subtle">Logged in as {label}</span>
-      <button className="btn ghost" onClick={() => signOut()}>
+      <span className="subtle">Logged in as {status.label}</span>
+      <button className="btn ghost" onClick={onSignOut}>
         Sign out
       </button>
     </div>

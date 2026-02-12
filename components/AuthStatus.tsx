@@ -10,38 +10,59 @@ import {
 } from "aws-amplify/auth";
 
 export default function AuthStatus() {
-  const [displayName, setDisplayName] = useState<string>("");
+  const [label, setLabel] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    let cancelled = false;
+
     (async () => {
-      try {
-        // Ensure session exists
-        const session = await fetchAuthSession();
-        await getCurrentUser();
+      setLoading(true);
 
-        // Pull name/email from ID token
-        const idToken = session.tokens?.idToken;
-        const payload = idToken?.payload as any;
+      for (let i = 0; i < 20; i++) {
+        if (cancelled) return;
 
-        const name =
-          payload?.name ||
-          payload?.email ||
-          payload?.given_name ||
-          "";
+        try {
+          const session = await fetchAuthSession();
+          const user = await getCurrentUser();
 
-        setDisplayName(name);
-      } catch {
-        setDisplayName("");
+          const payload = session.tokens?.idToken?.payload as any;
+
+          const best =
+            payload?.name ||
+            payload?.email ||
+            user?.signInDetails?.loginId ||
+            user?.username;
+
+          if (best) {
+            setLabel(best);
+            setLoading(false);
+            return;
+          }
+        } catch {
+          // keep retrying briefly
+        }
+
+        await new Promise((r) => setTimeout(r, 250));
       }
+
+      // If we got here, we're not signed in (or storage blocked)
+      setLabel("");
+      setLoading(false);
     })();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  if (!displayName) {
+  if (loading) {
+    return <span className="subtle">Checking sign-in…</span>;
+  }
+
+  if (!label) {
     return (
-      <button
-        className="btn"
-        onClick={() => signInWithRedirect({ provider: "Google" })}
-      >
+      <button className="btn" onClick={() => signInWithRedirect({ provider: "Google" })}>
         Sign in with Google
       </button>
     );
@@ -49,7 +70,7 @@ export default function AuthStatus() {
 
   return (
     <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-      <span className="subtle">Logged in as {displayName}</span>
+      <span className="subtle">Logged in as {label}</span>
       <button className="btn ghost" onClick={() => signOut()}>
         Sign out
       </button>

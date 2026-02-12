@@ -4,14 +4,22 @@ import { useEffect, useMemo, useState } from "react";
 import { Header } from "../components/Header";
 import { TopNav } from "../components/TopNav";
 import { RecipeCard } from "../components/RecipeCard";
-import { addIngredient, loadInventory } from "../lib/inventory";
+import { loadInventory, hydrateInventoryFromCloud } from "../lib/inventory";
 import { bucketize, scoreRecipes } from "../lib/engine";
 
 export default function Page() {
   const [inv, setInv] = useState<Set<string>>(new Set());
 
   useEffect(() => {
-    setInv(loadInventory());
+    async function init() {
+      // 1. Try pulling from cloud (if logged in)
+      await hydrateInventoryFromCloud();
+
+      // 2. Always load from local after (cloud may have updated it)
+      setInv(loadInventory());
+    }
+
+    init();
   }, []);
 
   const scored = useMemo(() => scoreRecipes(inv), [inv]);
@@ -21,7 +29,9 @@ export default function Page() {
     <>
       <Header />
       <TopNav />
-      <div className="subtle">Make Now — cocktails you can make with what you have.</div>
+      <div className="subtle">
+        Make Now — cocktails you can make with what you have.
+      </div>
       <div className="hr" />
       <div className="grid">
         {buckets.makeNow.map((x) => (
@@ -31,7 +41,8 @@ export default function Page() {
           <div className="card">
             <h3>Nothing ready yet</h3>
             <div className="subtle">
-              Go to <strong>My Bar</strong> and toggle a few ingredients. Start with Vodka, Gin, Lime Juice, Simple Syrup.
+              Go to <strong>My Bar</strong> and toggle a few ingredients.
+              Start with Vodka, Gin, Lime Juice, Simple Syrup.
             </div>
           </div>
         )}

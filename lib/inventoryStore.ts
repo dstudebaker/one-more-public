@@ -1,4 +1,3 @@
-// lib/inventoryStore.ts
 "use client";
 
 import { useSyncExternalStore } from "react";
@@ -6,11 +5,14 @@ import { useSyncExternalStore } from "react";
 const KEY = "one_more_inventory_v1";
 const listeners = new Set<() => void>();
 
+// ✅ Cached snapshot so getSnapshot is referentially stable
+let cached: Set<string> = new Set();
+
 function emit() {
   for (const l of listeners) l();
 }
 
-function read(): Set<string> {
+function readFromStorage(): Set<string> {
   if (typeof window === "undefined") return new Set();
   try {
     const raw = localStorage.getItem(KEY);
@@ -22,10 +24,22 @@ function read(): Set<string> {
   }
 }
 
-function write(inv: Set<string>) {
+function writeToStorage(inv: Set<string>) {
   if (typeof window === "undefined") return;
   localStorage.setItem(KEY, JSON.stringify(Array.from(inv.values())));
-  emit(); // ✅ same-tab update
+}
+
+// Initialize cache on first load (client-side)
+if (typeof window !== "undefined") {
+  cached = readFromStorage();
+
+  // Keep cache in sync across tabs/windows
+  window.addEventListener("storage", (e) => {
+    if (e.key === KEY) {
+      cached = readFromStorage();
+      emit();
+    }
+  });
 }
 
 export function subscribe(cb: () => void) {
@@ -34,27 +48,28 @@ export function subscribe(cb: () => void) {
 }
 
 export function getSnapshot() {
-  return read();
+  return cached; // ✅ stable reference unless we update cached
 }
 
 export function setInventory(inv: Set<string>) {
-  write(inv);
+  cached = new Set(inv);
+  writeToStorage(cached);
+  emit();
 }
 
 export function toggleIngredient(ingredientId: string) {
-  const next = new Set(read());
+  const next = new Set(cached);
   if (next.has(ingredientId)) next.delete(ingredientId);
   else next.add(ingredientId);
-  write(next);
+  setInventory(next);
 }
 
 export function addIngredient(ingredientId: string) {
-  const next = new Set(read());
+  const next = new Set(cached);
   next.add(ingredientId);
-  write(next);
+  setInventory(next);
 }
 
-// React hook used by pages/components
 export function useInventory() {
-  return useSyncExternalStore(subscribe, getSnapshot, () => new Set());
-}
+  return useSyncExternalStore(subscribe,
+

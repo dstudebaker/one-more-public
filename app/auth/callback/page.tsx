@@ -2,7 +2,7 @@
 
 import "../../amplify";
 import { useEffect, useState } from "react";
-import { getCurrentUser } from "aws-amplify/auth";
+import { fetchAuthSession } from "aws-amplify/auth";
 
 export default function AuthCallback() {
   const [msg, setMsg] = useState("Signing you in…");
@@ -11,34 +11,25 @@ export default function AuthCallback() {
     let cancelled = false;
 
     (async () => {
-      // If Cognito returned an error, show it
-      const url = new URL(window.location.href);
-      const err = url.searchParams.get("error");
-      const errDesc = url.searchParams.get("error_description");
-      if (err) {
-        setMsg(`Sign-in error: ${err}${errDesc ? ` — ${errDesc}` : ""}`);
-        return;
-      }
+      try {
+        // 🔥 This is what actually exchanges ?code= for tokens
+        await fetchAuthSession();
 
-      // Give Amplify time to exchange code->tokens and persist them
-      for (let i = 0; i < 40; i++) {
         if (cancelled) return;
-        try {
-          await getCurrentUser();
 
-          // Now that tokens exist, strip the querystring so refresh doesn't reprocess code
-          window.history.replaceState({}, document.title, "/auth/callback");
+        // Clean up query params
+        window.history.replaceState({}, document.title, "/auth/callback");
 
-          // Hard redirect home
+        setMsg("Signed in! Redirecting…");
+
+        // Redirect home
+        setTimeout(() => {
           window.location.replace("/");
-          return;
-        } catch {
-          setMsg(`Signing you in… (${i + 1}/40)`);
-          await new Promise((r) => setTimeout(r, 250));
-        }
+        }, 300);
+      } catch (err) {
+        console.error("Auth error:", err);
+        setMsg("Sign-in failed. Try again.");
       }
-
-      setMsg("Sign-in didn’t complete. Go back and try again.");
     })();
 
     return () => {

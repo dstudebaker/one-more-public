@@ -19,5 +19,5 @@ Amplify.configure(
       },
     },
   },
-  { ssr: true }
+  { ssr: false }
 );

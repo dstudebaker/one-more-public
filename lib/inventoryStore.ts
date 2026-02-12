@@ -71,5 +71,5 @@ export function addIngredient(ingredientId: string) {
 }
 
 export function useInventory() {
-  return useSyncExternalStore(subscribe,
-
+  return useSyncExternalStore(subscribe, getSnapshot, () => new Set());
+}

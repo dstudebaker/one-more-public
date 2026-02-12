@@ -15,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AmplifyClient>{children}</AmplifyClient>
+        <AmplifyClient>
+          <div className="page-wrap">{children}</div>
+        </AmplifyClient>
       </body>
     </html>
   );

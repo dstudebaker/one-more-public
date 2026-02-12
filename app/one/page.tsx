@@ -1,16 +1,14 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Header } from "../../components/Header";
 import { TopNav } from "../../components/TopNav";
 import { RecipeCard } from "../../components/RecipeCard";
-import { addIngredient, loadInventory } from "../../lib/inventory";
+import { addIngredient, useInventory } from "../../lib/inventoryStore";
 import { bucketize, scoreRecipes } from "../../lib/engine";
 
 export default function Page() {
-  const [inv, setInv] = useState<Set<string>>(new Set());
-
-  useEffect(() => setInv(loadInventory()), []);
+  const inv = useInventory();
 
   const scored = useMemo(() => scoreRecipes(inv), [inv]);
   const { oneAway } = useMemo(() => bucketize(scored), [scored]);
@@ -27,13 +25,15 @@ export default function Page() {
             key={x.recipe.id}
             item={x}
             mode="one"
-            onAddMissing={(id) => setInv(addIngredient(inv, id))}
+            onAddMissing={(id) => addIngredient(id)}
           />
         ))}
         {oneAway.length === 0 && (
           <div className="card">
             <h3>No 1-away drinks yet</h3>
-            <div className="subtle">Add a few core items in <strong>My Bar</strong> to light this up.</div>
+            <div className="subtle">
+              Add a few core items in <strong>My Bar</strong> to light this up.
+            </div>
           </div>
         )}
       </div>

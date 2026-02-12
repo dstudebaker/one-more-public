@@ -27,12 +27,18 @@ export default function Page() {
 
       <div className="grid">
         {suggestions.map((s) => {
-          const ing = INGREDIENT_BY_ID[s.id];
-          const name = ing?.name ?? s.id;
+          const ing = INGREDIENT_BY_ID[s.ingredientId];
+          const name = ing?.name ?? s.ingredientId;
 
           return (
-            <div key={s.id} className="card">
-              <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
+            <div key={s.ingredientId} className="card">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  gap: 12,
+                }}
+              >
                 <div>
                   <h3 style={{ margin: 0 }}>{name}</h3>
                   <div className="subtle">
@@ -46,7 +52,10 @@ export default function Page() {
                   </div>
                 </div>
 
-                <button className="btn" onClick={() => addIngredient(s.id)}>
+                <button
+                  className="btn"
+                  onClick={() => addIngredient(s.ingredientId)}
+                >
                   Add
                 </button>
               </div>

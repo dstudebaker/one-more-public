@@ -43,3 +43,24 @@ export async function saveCloudInventory(items: CloudItem[]): Promise<boolean> {
   if (!res.ok) throw new Error(`POST /inventory failed: ${res.status}`);
   return true;
 }
+
+/**
+ * Back-compat helpers used by inventoryStore.ts
+ *
+ * The UI stores inventory as a Set of ingredientIds, while the API shape is an
+ * array of CloudItem records. These helpers bridge the two shapes.
+ */
+export async function loadInventoryFromCloud(): Promise<Set<string> | null> {
+  const items = await fetchCloudInventory();
+  if (!items) return null;
+  return new Set(items.map((x) => x.ingredientId));
+}
+
+export async function saveInventoryToCloud(inv: Set<string>): Promise<boolean> {
+  const items: CloudItem[] = Array.from(inv).map((ingredientId) => ({
+    ingredientId,
+    name: ingredientId,
+    qty: 1,
+  }));
+  return saveCloudInventory(items);
+}

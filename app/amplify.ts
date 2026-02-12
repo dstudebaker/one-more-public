@@ -1,23 +1,17 @@
 import { Amplify } from "aws-amplify";
 
-Amplify.configure(
-  {
-    Auth: {
-      Cognito: {
-        // We'll fill these env vars in the next step
-        userPoolId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_ID!,
-        userPoolClientId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_CLIENT_ID!,
-        loginWith: {
-          oauth: {
-            domain: process.env.NEXT_PUBLIC_COGNITO_DOMAIN!,
-            scopes: ["openid", "email", "profile"],
-            redirectSignIn: [process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNIN!],
-            redirectSignOut: [process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNOUT!],
-            responseType: "code",
-          },
-        },
+Amplify.configure({
+  Auth: {
+    userPoolId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_ID!,
+    userPoolClientId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_CLIENT_ID!,
+    loginWith: {
+      oauth: {
+        domain: process.env.NEXT_PUBLIC_COGNITO_DOMAIN!,
+        scopes: ["openid", "email", "profile"],
+        redirectSignIn: process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNIN!,
+        redirectSignOut: process.env.NEXT_PUBLIC_COGNITO_REDIRECT_SIGNOUT!,
+        responseType: "code",
       },
     },
   },
-  { ssr: false }
-);
+});
